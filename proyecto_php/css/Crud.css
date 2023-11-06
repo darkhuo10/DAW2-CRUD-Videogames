@@ -1,0 +1,136 @@
+* {
+    color: #012538;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 30px 70px;
+    margin: 10px auto;
+}
+
+h1 {padding: 10px;}
+
+table {
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #012538;
+}
+
+th {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    border: 2px solid #012538;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    border: 2px solid #012538;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+    border: 2px solid #012538;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #012538;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    color: #0077cc;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    color: #012538;
+    cursor: pointer;
+}
+
+p > img {
+    width: 50px;
+    margin:  0 0;
+}
+
+img {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.toast {
+    margin-top: 10px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #012538;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #012538;
+    border-radius: 2px;
+    background: #012538;
+    color: #ffffff;
+}
+
+button:hover{
+    background: #ffffff;
+    color: #012538;
+    cursor: pointer;
+}
+
+.div-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-buttons button, .div-buttons input[type=submit] {flex: 2;}
+
+.div-buttons a {flex: 1;}
+
+.back{
+    padding: 8px;
+    border: 1px solid #012538;
+    border-radius: 2px;
+}
+
+.back:hover{
+    padding: 7px;
+    border: 2px solid #012538;
+}
+
+input[type="submit"] {
+    border: 1px solid #012538;
+    border-radius: 2px;
+    padding: 10px;
+    background: #012538;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover {
+    background: #ffffff;
+    color: #012538;
+    cursor: pointer;
+}
+

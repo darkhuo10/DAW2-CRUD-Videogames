@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "description" content=" ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo género</title>
+    <link rel="stylesheet" href="css/Crud.css">
+</head>
+<body>
+    <header>
+        <h1>Nuevo género</h1>
+    </header>
+    <main>
+        <form method='post' action='GenerosStore.php'>
+            <label for="nombre">Nombre: </label>
+            <input type='text' id='nombre' name='nombre' value='' placeholder="Nombre"><br>
+            <label for='descripcion'>Descripción: </label>
+            <input type='text' id='descripcion' name='descripcion' value='' placeholder="Descripción"><br>
+            <div class="div-buttons">
+                <input type="submit" name='actualizar' value="Guardar">
+                <a href="GenerosIndex.php" class="back"><img src="img/back_icon.png" alt="Volver"></a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
